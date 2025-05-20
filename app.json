@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "QuitIQ",
+    "slug": "QuitIQ",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/splash-screen.png",
+    "backgroundColor": "#9AC5D3",
+    "primaryColor": "#9AC5D3",
+    "loading": {
+      "icon": "./assets/images/splash-screen.png",
+      "backgroundColor": "#9AC5D3",
+      "hideExponentText": true,
+      "image": "./assets/images/splash-screen.png",
+      "resizeMode": "contain"
+    },
+    "scheme": "quitiq",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#9AC5D3"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splash-screen.png",
+        "backgroundColor": "#9AC5D3"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
